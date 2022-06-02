@@ -1,0 +1,17 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: api-venda
+
+  data:
+    mongodb:
+      host: db-venda
+      port: 27017
+      database: vendas
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka-server:8761/eureka/
